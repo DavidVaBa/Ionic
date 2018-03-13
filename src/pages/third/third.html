@@ -1,0 +1,69 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>ThirdPage</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-label color="primary" stacked>Song Name</ion-label>
+    <ion-input type="email" placeholder="Name Input"></ion-input>
+  </ion-item>
+  <ion-list radio-group>
+    <ion-list-header>
+      Type
+    </ion-list-header>
+    <ion-item>
+      <ion-label>Original</ion-label>
+      <ion-radio checked></ion-radio>
+    </ion-item>
+    <ion-item>
+      <ion-label>Remix</ion-label>
+      <ion-radio></ion-radio>
+    </ion-item>
+    <ion-item>
+      <ion-label>Live</ion-label>
+      <ion-radio></ion-radio>
+    </ion-item>
+  </ion-list>
+  <ion-item>
+    <ion-label>Album</ion-label>
+    <ion-select>
+      <ion-option>California</ion-option>
+      <ion-option>Common Courtesy</ion-option>
+      <ion-option>This Is War</ion-option>
+      <ion-option>White Noise</ion-option>
+    </ion-select>
+  </ion-item>
+  <ion-list>
+    <ion-item>
+      <ion-label>Explicit</ion-label>
+      <ion-toggle></ion-toggle>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-list-header>
+      Genre
+    </ion-list-header>
+    <ion-item>
+      <ion-label>Rock</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-label>Punk</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-label>Alternative</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+  </ion-list>
+  <ion-item>
+    <ion-label>Year</ion-label>
+    <ion-datetime displayFormat="YYYY" placeholder="2018"></ion-datetime>
+  </ion-item>
+  <button ion-button navPop color="danger">Cancel</button>
+</ion-content>
